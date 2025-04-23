@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 :root {
   --Very-dark-blue: hsl(212, 21%, 14%);
   --Dark-grayish-blue: hsl(228, 12%, 48%);
@@ -47,16 +49,18 @@ body {
 }
 
 .product-info h6 {
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3.5px;
   padding: 7px 5px;
-  font-size: 15px;
-  font-weight: 400;
+  /* font-size: 15px; */
+  font-weight: 700;
   color: var(--Dark-grayish-blue);
 }
 
 .product-info h1 {
   text-transform: capitalize;
+  font-family: 'Fraunces', serif;
   font-weight: 700;
   font-size: 40px;
   padding: 0 45px 0 0;
@@ -65,11 +69,12 @@ body {
 }
 
 .product-info p {
+  font-family: 'Montserrat', sans-serif;
   padding: 10px 30px 10px 0;
   font-size: 15px;
   color: var(--Dark-grayish-blue);
-  font-family: monospace;
-  /* line-height: 1.4; */
+  line-height: 1.4;
+  font-weight: 500;
 }
 
 .prices {
@@ -79,17 +84,17 @@ body {
 }
 
 .prices .new-price {
+  font-family: 'Fraunces', serif;
   font-size: 33px;
   color: var(--Dark-cyan);
-  font-family: monospace;
   font-weight: 700;
 }
 
 .prices .old-price {
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 10px 0;
   text-decoration: line-through;
-  font-family: monospace;
   font-size: 15px;
   color: var(--Dark-grayish-blue);
 }
@@ -100,6 +105,7 @@ body {
 }
 
 .button button {
+  font-family: 'Montserrat', sans-serif;
   width: 285px;
   height: 45px;
   background: var(--Dark-cyan);
